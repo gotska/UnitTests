@@ -1,6 +1,10 @@
 package org.ut;
 
-public class SimpleClass {
+/**
+ * Class for mock testing
+ * @author Vladislav Gotska 
+ */
+public class SimpleMockClass {
 
 	public String publicMethodReturnString (String a, String b){
 		String ret;
@@ -17,8 +21,5 @@ public class SimpleClass {
 		}
 	}
 	
-	public static void main(String[] args) {
-		
-	}
-
+	
 }
