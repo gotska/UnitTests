@@ -8,6 +8,15 @@ public class SimpleClass {
 		return ret;
 	}
 	
+	public boolean publicMethodReturnBoolean (String a, String b){
+		if(a!=b){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
+	
 	public static void main(String[] args) {
 		SimpleClass sc = new SimpleClass();
 		String str = sc.publicMethodReturnString("a", "b");

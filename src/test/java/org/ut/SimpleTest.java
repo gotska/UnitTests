@@ -12,5 +12,12 @@ public class SimpleTest {
 	      String ret = sc.publicMethodReturnString("a", "b");
 	      assertEquals(ret ,"ab");
 	   }
+	
+	@Test
+	   public void checkReturnBoolean() {
+	      SimpleClass sc = new SimpleClass();
+	      Boolean ret = sc.publicMethodReturnBoolean("a", "b");
+	      assertTrue(ret);
+	   }
 
 }
